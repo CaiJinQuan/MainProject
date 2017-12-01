@@ -19,8 +19,6 @@
 		7F09F3A61FD0F63300752E98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F09F3A51FD0F63300752E98 /* main.m */; };
 		7F09F3B01FD0F63300752E98 /* MainProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F09F3AF1FD0F63300752E98 /* MainProjectTests.m */; };
 		7F09F3BB1FD0F63300752E98 /* MainProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F09F3BA1FD0F63300752E98 /* MainProjectUITests.m */; };
-		7F09F3CD1FD0F73500752E98 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F09F3CC1FD0F73500752E98 /* AViewController.m */; };
-		7F09F3D01FD0F73D00752E98 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F09F3CF1FD0F73D00752E98 /* BViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,10 +61,6 @@
 		7F09F3B61FD0F63300752E98 /* MainProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F09F3BA1FD0F63300752E98 /* MainProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainProjectUITests.m; sourceTree = "<group>"; };
 		7F09F3BC1FD0F63300752E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F09F3CB1FD0F73500752E98 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		7F09F3CC1FD0F73500752E98 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
-		7F09F3CE1FD0F73D00752E98 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
-		7F09F3CF1FD0F73D00752E98 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 		A0E704308EA21ED9E9E2E368 /* libPods-MainProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MainProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9A73C9C9CBF76025E1FB33B /* Pods-MainProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MainProjectUITests/Pods-MainProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C84DCC806E78DA1FE917FEBB /* libPods-MainProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MainProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,8 +130,6 @@
 		7F09F3921FD0F63300752E98 /* MainProject */ = {
 			isa = PBXGroup;
 			children = (
-				7F09F3C81FD0F70200752E98 /* AViewController */,
-				7F09F3CA1FD0F71A00752E98 /* BViewController */,
 				7F09F3931FD0F63300752E98 /* AppDelegate.h */,
 				7F09F3941FD0F63300752E98 /* AppDelegate.m */,
 				7F09F3961FD0F63300752E98 /* ViewController.h */,
@@ -168,24 +160,6 @@
 				7F09F3BC1FD0F63300752E98 /* Info.plist */,
 			);
 			path = MainProjectUITests;
-			sourceTree = "<group>";
-		};
-		7F09F3C81FD0F70200752E98 /* AViewController */ = {
-			isa = PBXGroup;
-			children = (
-				7F09F3CB1FD0F73500752E98 /* AViewController.h */,
-				7F09F3CC1FD0F73500752E98 /* AViewController.m */,
-			);
-			path = AViewController;
-			sourceTree = "<group>";
-		};
-		7F09F3CA1FD0F71A00752E98 /* BViewController */ = {
-			isa = PBXGroup;
-			children = (
-				7F09F3CE1FD0F73D00752E98 /* BViewController.h */,
-				7F09F3CF1FD0F73D00752E98 /* BViewController.m */,
-			);
-			path = BViewController;
 			sourceTree = "<group>";
 		};
 		EB90176D8F0F7919BC1E7AA4 /* Pods */ = {
@@ -491,8 +465,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F09F39E1FD0F63300752E98 /* MainProject.xcdatamodeld in Sources */,
-				7F09F3D01FD0F73D00752E98 /* BViewController.m in Sources */,
-				7F09F3CD1FD0F73500752E98 /* AViewController.m in Sources */,
 				7F09F3981FD0F63300752E98 /* ViewController.m in Sources */,
 				7F09F3A61FD0F63300752E98 /* main.m in Sources */,
 				7F09F3951FD0F63300752E98 /* AppDelegate.m in Sources */,

@@ -1,6 +1,16 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## A_Category
+
+MIT
+
+
+## CTMediator
+
+MIT
+
+
 ## HandyFrame
 
 

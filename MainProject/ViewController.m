@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import <HandyFrame/UIView+LayoutMethods.h>
-#import "AViewController.h"
+#import <A_Category/CTMediator+A.h>
 
 @interface ViewController ()
 @property (nonatomic, strong) UIButton *pushAViewControllerButton;
@@ -31,7 +31,7 @@
 
 #pragma mark - response
 - (void)didTappedPushAViewControllerButton:(UIButton *)button {
-    AViewController *viewController = [[AViewController alloc] init];
+    UIViewController *viewController = [[CTMediator sharedInstance] A_aViewController];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 

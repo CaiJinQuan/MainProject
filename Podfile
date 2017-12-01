@@ -5,7 +5,8 @@ target 'MainProject' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
   pod 'HandyFrame'
-
+  pod 'CTMediator'
+  pod 'A_Category',:path => '../A_Category'
   # Pods for MainProject
 
   target 'MainProjectTests' do
